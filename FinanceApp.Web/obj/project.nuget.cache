@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "pu32N1kpm6M=",
+  "success": true,
+  "projectFilePath": "c:\\Users\\lucim\\OneDrive\\Documentos\\Aplicativo de Controle Financeiro\\FinanceApp.Web\\FinanceApp.Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lucim\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\10.0.2\\microsoft.aspnetcore.identity.ui.10.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

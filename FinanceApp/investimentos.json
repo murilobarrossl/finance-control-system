@@ -1,0 +1,26 @@
+[
+  {
+    "Descricao": "terrenos",
+    "ValorInicial": 0,
+    "TaxaMensal": 2,
+    "Meses": 12
+  },
+  {
+    "Descricao": "imovel",
+    "ValorInicial": 1500000,
+    "TaxaMensal": 1.2,
+    "Meses": 24
+  },
+  {
+    "Descricao": "imov\u00E9l",
+    "ValorInicial": 1200000,
+    "TaxaMensal": 1.6,
+    "Meses": 24
+  },
+  {
+    "Descricao": "imo",
+    "ValorInicial": 1500000,
+    "TaxaMensal": 1.6,
+    "Meses": 36
+  }
+]
