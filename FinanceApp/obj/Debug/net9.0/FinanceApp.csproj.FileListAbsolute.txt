@@ -12,3 +12,4 @@ C:\Users\lucim\OneDrive\Documentos\Aplicativo de Controle Financeiro\FinanceApp\
 C:\Users\lucim\OneDrive\Documentos\Aplicativo de Controle Financeiro\FinanceApp\obj\Debug\net9.0\FinanceApp.pdb
 C:\Users\lucim\OneDrive\Documentos\Aplicativo de Controle Financeiro\FinanceApp\obj\Debug\net9.0\FinanceApp.genruntimeconfig.cache
 C:\Users\lucim\OneDrive\Documentos\Aplicativo de Controle Financeiro\FinanceApp\obj\Debug\net9.0\ref\FinanceApp.dll
+C:\Users\lucim\OneDrive\Documentos\Aplicativo de Controle Financeiro\financeapp\obj\Debug\net9.0\FinanceApp.sourcelink.json

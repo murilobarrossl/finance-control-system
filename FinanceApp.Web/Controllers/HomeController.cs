@@ -1,4 +1,3 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using FinanceApp.Web.Models;
 
@@ -6,26 +5,19 @@ namespace FinanceApp.Web.Controllers;
 
 public class HomeController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
-
-    public HomeController(ILogger<HomeController> logger)
-    {
-        _logger = logger;
-    }
+    private static List<Transacao> transacoes = new List<Transacao>();
 
     public IActionResult Index()
     {
-        return View();
+        return View(transacoes);
     }
 
-    public IActionResult Privacy()
+    [HttpPost]
+    public IActionResult Adicionar(string tipo, decimal valor, string descricao)
     {
-        return View();
-    }
+        var nova = new Transacao(tipo, valor, descricao);
+        transacoes.Add(nova);
 
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        return RedirectToAction("Index");
     }
 }

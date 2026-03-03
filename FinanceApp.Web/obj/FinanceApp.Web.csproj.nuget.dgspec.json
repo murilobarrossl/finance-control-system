@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\lucim\\OneDrive\\Documentos\\Aplicativo de Controle Financeiro\\FinanceApp.Web\\FinanceApp.Web.csproj": {}
+    "C:\\Users\\lucim\\OneDrive\\Documentos\\Aplicativo de Controle Financeiro\\FinanceApp.Web\\FinanceApp.Web.csproj": {}
   },
   "projects": {
-    "c:\\Users\\lucim\\OneDrive\\Documentos\\Aplicativo de Controle Financeiro\\FinanceApp.Web\\FinanceApp.Web.csproj": {
+    "C:\\Users\\lucim\\OneDrive\\Documentos\\Aplicativo de Controle Financeiro\\FinanceApp.Web\\FinanceApp.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\lucim\\OneDrive\\Documentos\\Aplicativo de Controle Financeiro\\FinanceApp.Web\\FinanceApp.Web.csproj",
+        "projectUniqueName": "C:\\Users\\lucim\\OneDrive\\Documentos\\Aplicativo de Controle Financeiro\\FinanceApp.Web\\FinanceApp.Web.csproj",
         "projectName": "FinanceApp.Web",
-        "projectPath": "c:\\Users\\lucim\\OneDrive\\Documentos\\Aplicativo de Controle Financeiro\\FinanceApp.Web\\FinanceApp.Web.csproj",
+        "projectPath": "C:\\Users\\lucim\\OneDrive\\Documentos\\Aplicativo de Controle Financeiro\\FinanceApp.Web\\FinanceApp.Web.csproj",
         "packagesPath": "C:\\Users\\lucim\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\lucim\\OneDrive\\Documentos\\Aplicativo de Controle Financeiro\\FinanceApp.Web\\obj\\",
+        "outputPath": "C:\\Users\\lucim\\OneDrive\\Documentos\\Aplicativo de Controle Financeiro\\FinanceApp.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,12 +50,6 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.Identity.UI": {
-              "target": "Package",
-              "version": "[10.0.2, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

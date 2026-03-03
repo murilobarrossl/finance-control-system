@@ -10,6 +10,12 @@ public enum TipoTransacao
 
 public class Transacao
 {
+    public Transacao(string tipo, decimal valor, string descricao)
+    {
+        Valor = valor;
+        Descricao = descricao;
+    }
+
     public int Id { get; set; }
 
     [Required]

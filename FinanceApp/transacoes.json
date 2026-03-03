@@ -8,5 +8,10 @@
     "Tipo": "Receita",
     "Valor": 12,
     "Descricao": "12"
+  },
+  {
+    "Tipo": "Despesa",
+    "Valor": 759,
+    "Descricao": "mens. facul"
   }
 ]
