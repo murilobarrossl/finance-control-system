@@ -1,4 +1,4 @@
-﻿@model List<FinanceApp.Web.Models.Transacao>
+﻿@model FinanceApp.Web.ViewModels.IndexViewModel
 @using FinanceApp.Web.Models
 
 <h2>Finexa - Controle Financeiro</h2>
@@ -24,7 +24,7 @@
 <h3>Transações</h3>
 
 <ul>
-@foreach (var t in Model)
+@foreach (var t in Model.Transacoes)
 {
     <li>@t.Tipo - @t.Descricao - @t.Valor</li>
 }
@@ -32,17 +32,6 @@
 
 <h3>
 Saldo:
-@{
-    decimal saldo = 0;
-
-    foreach (var t in Model)
-    {
-        if (t.Tipo == TipoTransacao.Entrada)
-            saldo += t.Valor;
-        else
-            saldo -= t.Valor;
-    }
-}
-
-@saldo
-</h3>
+<h3>Total Entradas: @Model.TotalEntradas</h3>
+<h3>Total Saídas: @Model.TotalSaidas</h3>
+<h2>Saldo: @Model.Saldo</h2>
